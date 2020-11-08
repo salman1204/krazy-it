@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Pricing from "./components/Pricing/Pricing";
 import Services from "./components/Services/Services";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           <Route path="/portfolio" component={Portfolio} />
 
           <Route path="/features" component={Features} />
+
+          <Route path="/pricing" component={Pricing} />
+
 
           <Route exact path="" component={Home} />
 

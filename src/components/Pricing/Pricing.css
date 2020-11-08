@@ -1,0 +1,37 @@
+.pricing {
+    background: linear-gradient(#eeede6ea, #ffffff);
+    margin: auto;
+    width: 92%;
+}
+
+.pricing h2 {
+  
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.pricing p {
+    text-align: justify;
+}
+
+.price-info-container {
+    margin-top: 120px;
+}
+
+.pricing button {
+    margin: 0 auto;
+    color: white;
+    background-color: #57BE8E;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(109, 106, 106);
+}
+
+.pricing h6 {
+    color: rgb(187, 181, 181);
+    font-weight: 100;
+}
