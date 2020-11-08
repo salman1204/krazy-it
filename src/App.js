@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Features from "./components/Features/Features";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
@@ -25,6 +26,7 @@ function App() {
 
           <Route path="/pricing" component={Pricing} />
 
+          <Route path="/contact" component={Contact} />
 
           <Route exact path="" component={Home} />
 
