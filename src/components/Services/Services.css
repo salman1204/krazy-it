@@ -1,0 +1,16 @@
+.services {
+    background: linear-gradient(#eeede6ea, #ffffff);
+}
+.service-container {
+    display: block;
+    width: 55%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.single-item {
+    margin: 30px;
+    padding: 0 40px;
+}

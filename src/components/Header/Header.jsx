@@ -18,9 +18,10 @@ const Header = () => {
         <Nav className="ml-auto" style={{padding:"0 50px 0 0"}}>
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/services">Services</Nav.Link>
-          <Nav.Link href="#">Portfolio</Nav.Link>
+          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#">Features</Nav.Link>
           <Nav.Link href="#">Pricing</Nav.Link>
+          <button>Order Now</button>
         </Nav>
       </Navbar>
       </div>

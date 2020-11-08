@@ -3,4 +3,18 @@
     top: 0;
     width: 100%;
     opacity:0.8
-  }
+}
+
+.header button {
+    margin: 0 auto;
+    color: white;
+    background-color: #57BE8E;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(109, 106, 106);
+}
+
