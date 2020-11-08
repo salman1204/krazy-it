@@ -1,0 +1,41 @@
+.about {
+    background: linear-gradient(#eeede6ea, #ffffff);
+    
+}
+
+.about-info {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: #57BE8E;
+    margin-bottom: 20px;
+}
+
+.about-info button {
+    margin: 0 auto;
+    color: white;
+    background-color: #57BE8E;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+.about-info button:hover {
+    background-color: rgb(109, 106, 106);
+}
+
+.customer-story {
+   margin: auto;
+   margin-top: 100px;
+   text-align: center;
+}
+
+.customer-story iframe {
+    margin: 20px;
+}

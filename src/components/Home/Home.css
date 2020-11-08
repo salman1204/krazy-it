@@ -1,0 +1,38 @@
+.home {
+    height: 100vh;
+    background-image: url("../../images/home-bg.jpg");
+    
+}
+
+.home-info {
+    width: 50%;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    
+}
+
+.home-info h1 {
+    text-align: center;
+    padding: 10px;
+    color: #57BE8E;
+    font-size: 45px;
+}
+
+.home-info p {
+    font-size: 20px;
+}
+
+.home-info button {
+    margin: 0 auto;
+    color: white;
+    background-color: #57BE8E;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.home-info button:hover {
+    background-color: rgb(109, 106, 106);
+}
