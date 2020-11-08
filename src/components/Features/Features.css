@@ -1,0 +1,12 @@
+.features {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.features-header {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}

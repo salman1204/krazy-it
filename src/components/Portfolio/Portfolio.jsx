@@ -1,50 +1,77 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import "./Portfolio.css"
-import slide1 from '../../images/slide1.jpg'
+import "./Portfolio.css";
+import InfiniteCarousel from "react-leaf-carousel";
+import "react-multi-carousel/lib/styles.css";
+import slide1 from "../../images/slide1.jpg";
+import slide2 from "../../images/slide2.jpg";
+import slide3 from "../../images/slide3.jpg";
+import slide4 from "../../images/slide4.jpg";
+import slide5 from "../../images/slide5.jpg";
+import slide6 from "../../images/slide6.jpg";
+import slide7 from "../../images/slide7.jpg";
+import slide8 from "../../images/slide8.jpg";
+import slide9 from "../../images/slide9.jpg";
 
 const Portfolio = () => {
   return (
-    <div>
-      <Carousel className="carousel">
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={slide1}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+    <div className="portfolio">
+        <div className="portfolio-info">
+        <h1>Our Major Clients</h1>
+        <p>Some of our largest backers, who continue to work with us and are extremely satisfied with our service delivery, playing a major part in jumpstarting their respective business’ overall infrastructure.</p>
+        </div>
+      <InfiniteCarousel
+        breakpoints={[
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            },
+          },
+        ]}
+        dots={true}
+        showSides={true}
+        sidesOpacity={0.5}
+        sideSize={0.1}
+        slidesToScroll={4}
+        slidesToShow={4}
+        scrollOnDevice={true}
+      >
+        <div>
+          <img alt="" src={slide1} />
+        </div>
+        <div>
+          <img alt="" src={slide2} />
+        </div>
+        <div>
+          <img alt="" src={slide3} />
+        </div>
+        <div>
+          <img alt="" src={slide4} />
+        </div>
+        <div>
+          <img alt="" src={slide5} />
+        </div>
+        <div>
+          <img alt="" src={slide6} />
+        </div>
+        <div>
+          <img alt="" src={slide7} />
+        </div>
+        <div>
+          <img alt="" src={slide8} />
+        </div>
+        <div>
+          <img alt="" src={slide9} />
+        </div>
+      </InfiniteCarousel>
     </div>
   );
 };

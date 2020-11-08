@@ -1,5 +1,17 @@
-.carousel img {
-    margin-top: 70px;
-    width: auto;
-    height: 400px;
+.portfolio {
+    background: linear-gradient(#eeede6ea, #ffffff);
+    height: 100vh;
+    margin: auto;
+}
+
+.portfolio-info {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.portfolio h1 {
+    margin-bottom: 20px;
 }
